@@ -1,0 +1,4 @@
+08-04-2024 18:29:28:853 Rest_servidor [INFO] : startJettyWebServer
+08-04-2024 18:29:31:728 Rest_servidor [INFO] : Jetty server started
+08-04-2024 18:29:31:728 Rest_servidor [INFO] : stopJettyServerAfter 30000 milliseconds
+08-04-2024 18:30:01:758 Rest_servidor [INFO] : Jetty server stopped

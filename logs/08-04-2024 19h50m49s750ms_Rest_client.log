@@ -1,0 +1,7 @@
+08-04-2024 19:50:49:991 Rest_client [INFO] : length
+08-04-2024 19:50:49:995 Rest_client [INFO] : word: Ephemeris
+08-04-2024 19:50:52:296 Rest_client [INFO] : split
+08-04-2024 19:50:52:296 Rest_client [INFO] : word: Ephemeris
+08-04-2024 19:50:52:296 Rest_client [INFO] : regex: e
+08-04-2024 19:50:52:536 Rest_client [INFO] : lower
+08-04-2024 19:50:52:536 Rest_client [INFO] : word: Ephemeris

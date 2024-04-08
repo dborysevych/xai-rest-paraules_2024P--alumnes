@@ -1,0 +1,14 @@
+08-04-2024 19:47:08:349 Rest_servidor [INFO] : startJettyWebServer
+08-04-2024 19:47:11:448 Rest_servidor [INFO] : Jetty server started
+08-04-2024 19:47:11:448 Rest_servidor [INFO] : stopJettyServerAfter 30000 milliseconds
+08-04-2024 19:47:18:083 Rest_servidor [INFO] : length
+08-04-2024 19:47:18:084 Rest_servidor [INFO] : word: Ephemeris
+08-04-2024 19:47:18:084 Rest_servidor [INFO] : response: 9
+08-04-2024 19:47:18:213 Rest_servidor [INFO] : split
+08-04-2024 19:47:18:213 Rest_servidor [INFO] : word: Ephemeris
+08-04-2024 19:47:18:213 Rest_servidor [INFO] : regex: e
+08-04-2024 19:47:18:312 Rest_servidor [INFO] : response: ["Eph","m","ris"]
+08-04-2024 19:47:18:449 Rest_servidor [INFO] : capitalize
+08-04-2024 19:47:18:449 Rest_servidor [INFO] : word: Ephemeris
+08-04-2024 19:47:18:462 Rest_servidor [INFO] : response: {"word":"ephemeris","modified":true}
+08-04-2024 19:47:41:464 Rest_servidor [INFO] : Jetty server stopped

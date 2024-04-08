@@ -33,9 +33,7 @@ public class RestServerAPI {
 		LSimLogger.log(Level.INFO, "length");
 		LSimLogger.log(Level.INFO, "word: " + paraula);
 
-		int resultat = -1;
-		
-		/* COMPLETE CODE */	
+		int resultat = paraula.length();
 
 		LSimLogger.log(Level.INFO, "response: "+(new Integer(resultat)).toString());
 		return (new Integer(resultat)).toString();
@@ -56,13 +54,11 @@ public class RestServerAPI {
 		LSimLogger.log(Level.INFO, "word: "+paraula);
 		LSimLogger.log(Level.INFO, "regex: "+regex);
 
-		Object resultat = null;
-		Gson gson = null;
-		
-		/* COMPLETE CODE */	
+		Object[] resultat = paraula.split(regex);
+		Gson gson = new Gson();
 		
 		LSimLogger.log(Level.INFO, "response: "+gson.toJson(resultat));
-		return gson.toJson(resultat);
+		return  gson.toJson(resultat);
 	}
 
 	/**
@@ -78,10 +74,8 @@ public class RestServerAPI {
 		LSimLogger.log(Level.INFO, "capitalize");
 		LSimLogger.log(Level.INFO, "word: "+paraula);
 
-		Capitalized resultat = null;
-		Gson gson = null;
-		
-		/* COMPLETE CODE */
+		Capitalized resultat = new Capitalized(paraula.toLowerCase(), true);
+		Gson gson = new Gson();
 
 		LSimLogger.log(Level.INFO, "response: "+gson.toJson(resultat));
 		return gson.toJson(resultat);

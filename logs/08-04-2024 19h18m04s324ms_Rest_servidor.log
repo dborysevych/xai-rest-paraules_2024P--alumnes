@@ -1,0 +1,10 @@
+08-04-2024 19:18:04:577 Rest_servidor [INFO] : startJettyWebServer
+08-04-2024 19:18:07:606 Rest_servidor [INFO] : Jetty server started
+08-04-2024 19:18:07:606 Rest_servidor [INFO] : stopJettyServerAfter 30000 milliseconds
+08-04-2024 19:18:12:023 Rest_servidor [INFO] : length
+08-04-2024 19:18:12:023 Rest_servidor [INFO] : word: Ephemeris
+08-04-2024 19:18:12:023 Rest_servidor [INFO] : response: 9
+08-04-2024 19:18:12:158 Rest_servidor [INFO] : split
+08-04-2024 19:18:12:158 Rest_servidor [INFO] : word: Ephemeris
+08-04-2024 19:18:12:158 Rest_servidor [INFO] : regex: e
+08-04-2024 19:18:37:627 Rest_servidor [INFO] : Jetty server stopped

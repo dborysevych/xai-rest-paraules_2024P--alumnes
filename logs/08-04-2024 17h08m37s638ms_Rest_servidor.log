@@ -1,0 +1,7 @@
+08-04-2024 17:08:37:855 Rest_servidor [INFO] : startJettyWebServer
+08-04-2024 17:08:41:053 Rest_servidor [INFO] : Jetty server started
+08-04-2024 17:08:41:053 Rest_servidor [INFO] : stopJettyServerAfter 30000 milliseconds
+08-04-2024 17:08:41:998 Rest_servidor [INFO] : length
+08-04-2024 17:08:41:998 Rest_servidor [INFO] : word: paraula
+08-04-2024 17:08:41:998 Rest_servidor [INFO] : response: 7
+08-04-2024 17:09:11:080 Rest_servidor [INFO] : Jetty server stopped
