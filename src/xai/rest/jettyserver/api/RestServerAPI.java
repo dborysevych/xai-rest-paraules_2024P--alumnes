@@ -73,10 +73,12 @@ public class RestServerAPI {
 	public String toLowerCase (@PathParam("paraula") String paraula) {
 		LSimLogger.log(Level.INFO, "capitalize");
 		LSimLogger.log(Level.INFO, "word: "+paraula);
-
-		Capitalized resultat = new Capitalized(paraula.toLowerCase(), true);
+		
+		String lower = paraula.toLowerCase();
+		Capitalized resultat = new Capitalized(lower, 
+					lower != paraula);
+		
 		Gson gson = new Gson();
-
 		LSimLogger.log(Level.INFO, "response: "+gson.toJson(resultat));
 		return gson.toJson(resultat);
 	}
